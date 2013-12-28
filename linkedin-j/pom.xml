@@ -8,7 +8,7 @@
   <groupId>com.googlecode.linkedin-j</groupId>
   <artifactId>linkedin-j</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.417-SNAPSHOT</version>
+  <version>${linkedin-j.version}</version>
   <name>LinkedIn-J</name>
   <inceptionYear>2010</inceptionYear>
   <description>A Java wrapper for LinkedIn APIs.</description>
@@ -24,6 +24,9 @@
     <system>google-code</system>
     <url>http://code.google.com/p/linkedin-j/issues/list</url>
   </issueManagement>
+  <properties>
+	  <linkedin-j.version>1.0-SNAPSHOT</linkedin-j.version>
+  </properties>
 
   <scm>
     <connection>http://linkedin-j.googlecode.com/svn/trunk/linkedin-j</connection>
